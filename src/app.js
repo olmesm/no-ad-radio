@@ -1,6 +1,6 @@
 import "https://unpkg.com/htm@latest";
-import "https://unpkg.com/react@latest/umd/react.development.js";
-import "https://unpkg.com/react-dom@latest/umd/react-dom.development.js";
+import "https://unpkg.com/react@latest/umd/react.production.min.js";
+import "https://unpkg.com/react-dom@latest/umd/react-dom.production.min.js";
 
 const { createElement, useRef, useState, useEffect } = React;
 const render = ReactDOM.render;
