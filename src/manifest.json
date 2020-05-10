@@ -1,0 +1,19 @@
+{
+  "dir": "ltr",
+  "lang": "English",
+  "name": "No Ads Internet Radio",
+  "scope": "/no-ad-radio/",
+  "display": "standalone",
+  "start_url": "https://olmesm.github.io/no-ad-radio/",
+  "short_name": "No Ads Internet",
+  "theme_color": "transparent",
+  "description": "No Ads Internet Radio",
+  "orientation": "portrait",
+  "background_color": "transparent",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "icons": [],
+  "url": "https://olmesm.github.io/no-ad-radio/",
+  "screenshots": [],
+  "generated": "true"
+}
