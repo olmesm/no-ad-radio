@@ -1,0 +1,24 @@
+{
+  "name": "no-ad-radio-surge-sh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "cp -r src dist",
+    "start": "live-server src -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olmesm/no-ad-radio-surge-sh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olmesm/no-ad-radio-surge-sh/issues"
+  },
+  "homepage": "https://github.com/olmesm/no-ad-radio-surge-sh#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
