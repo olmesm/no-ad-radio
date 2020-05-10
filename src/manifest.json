@@ -17,6 +17,11 @@
       "src": "elephant.png",
       "sizes": "200x200",
       "type": "image/png"
+    },
+    {
+      "src": "elephant512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
   "url": "https://olmesm.github.io/no-ad-radio/",
