@@ -19,7 +19,13 @@ const Loader = () =>
 const Controls = ({ play, pause, isPlaying, isTrackLoaded }) =>
   isPlaying
     ? html`<button onClick=${pause}>Pause</button>`
-    : html`<button disabled=${!isTrackLoaded} onClick=${play}>Play</button>`;
+    : html`<button
+        class=${isTrackLoaded && "pulse"}
+        disabled=${!isTrackLoaded}
+        onClick=${play}
+      >
+        Play
+      </button>`;
 
 const StationsList = ({ handleMedia }) => {
   const [stations, setStations] = useState([]);
@@ -74,9 +80,12 @@ const App = () => {
     elMedia.current.play();
   };
 
+  const isTrackLoaded = !isPlaying && station && station.url;
+
   return html`
     <div>
       <audio
+        preload="auto"
         onPlaying=${() => setIsPlaying(true)}
         onPause=${() => setIsPlaying(false)}
         ref=${elMedia}
@@ -88,7 +97,7 @@ const App = () => {
           isPlaying=${!!station}
           play=${handlePlay}
           pause=${handlePause}
-          isTrackLoaded=${station && station.url}
+          isTrackLoaded=${isTrackLoaded}
           isPlaying=${isPlaying}
         />
         <span>${station && station.name}</span>
