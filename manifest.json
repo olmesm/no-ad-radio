@@ -1,0 +1,30 @@
+{
+  "dir": "ltr",
+  "lang": "English",
+  "name": "No Ads Internet Radio",
+  "scope": "/no-ad-radio/",
+  "display": "standalone",
+  "start_url": "https://olmesm.github.io/no-ad-radio/",
+  "short_name": "No Ads Internet",
+  "theme_color": "#b131fb",
+  "description": "No Ads Internet Radio",
+  "orientation": "portrait",
+  "background_color": "#b131fb",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "elephant.png",
+      "sizes": "200x200",
+      "type": "image/png"
+    },
+    {
+      "src": "elephant512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "url": "https://olmesm.github.io/no-ad-radio/",
+  "screenshots": [],
+  "generated": "true"
+}
